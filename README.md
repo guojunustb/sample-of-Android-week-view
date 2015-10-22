@@ -1,9 +1,9 @@
 # sample-of-Android-week-view
 This is a sample of android week view,Thanks the author of android week view ,The WeekHeaderView is based on android week view .This project contains two view ,the header view and day view.You can add events .Please watch the rederings
-[](images/screen_shot1.gif)
-[](images/screen_shot2.gif)
-[](images/screen_shot3.gif)
-[](images/screen_shot4.gif)
+![](images/screen_shot1.gif)
+![](images/screen_shot2.gif)
+![](images/screen_shot3.gif)
+![](images/screen_shot4.gif)
 Features
 ------------
 * week header view
