@@ -1408,7 +1408,9 @@ public class WeekDayView extends View {
             mSelectedDate = (Calendar) mToday.clone();
             mSelectedDate.add(Calendar.DATE, -leftDays);
             if (mSelectedDate.get(Calendar.DAY_OF_YEAR) != mLastSelectedDate.get(Calendar.DAY_OF_YEAR)) {
-                mScrollListener.onSelectedDaeChange(mSelectedDate);
+                if (mScrollListener != null) {
+                    mScrollListener.onSelectedDaeChange(mSelectedDate);   
+                }
             }
             mCurrentScrollDirection = Direction.NONE;
         }
